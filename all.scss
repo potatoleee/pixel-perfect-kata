@@ -20,13 +20,10 @@ h2{
 .d-flex{
   display: flex;  
 }
-.news{
+.news,.news__card{
     margin-bottom: 24px;
 }
 
-.news__card{  
-    margin-bottom: 24px;
-}
 
 .news__text{
     max-width: 288px;
