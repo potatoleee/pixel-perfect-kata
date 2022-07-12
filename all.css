@@ -62,9 +62,10 @@ img {
   display: block;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.5;
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 h2 {
@@ -72,10 +73,9 @@ h2 {
   line-height: 1.2;
 }
 
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .news, .news__card {
@@ -84,11 +84,11 @@ h2 {
 
 .news__text {
   max-width: 288px;
-  margin: 0px 20px;
+  margin: 0 20px;
 }
 
 footer p {
   text-align: center;
-  padding: 48px 0px;
+  padding: 48px 0;
 }
 /*# sourceMappingURL=all.css.map */
