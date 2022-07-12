@@ -55,12 +55,12 @@ table {
 
 h1 {
   color: gray;
+  background-color: lightblue;
 }
 
 .container {
-  max-width: 672px;
+  max-width: 640px;
   margin: 0 auto;
-  padding: 0px 16px;
 }
 
 img {
