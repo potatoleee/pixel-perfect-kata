@@ -1,23 +1,17 @@
 @import 'reset';
 
-h1{
-    color:gray;
-    background-color: lightblue;
-}
 
 .container{
     max-width: 640px;
     margin: 0 auto;
    
 }
+.d-flex{
+    display: flex;
+}
 
 img{
     vertical-align: middle;
-}
-
-h1{
-    font-size: 16px;
-    line-height: 1.5;
 }
 
 h2{
@@ -29,26 +23,22 @@ p{
     font-size: 16px;
     line-height: 1.5;
 }
+
 .news{
-    display: flex;
     margin-bottom: 24px;
 }
-.news-list{
-    li{
-        display: flex;
-    }
-}
-.news-item_first{
+
+.news__item--first{
     padding-bottom: 20px;
 }
 
-.news-item_content{
+.news__item--content{
     margin: 0px 20px ;
     max-width: 288px;
 }
 
 footer{
-    h1{
+    p{
     text-align: center;
     padding-top: 48px;
     padding-bottom: 48px;

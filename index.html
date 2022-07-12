@@ -9,19 +9,19 @@
 </head>
 <body>
     <div class="container">
-        <div class="news">
-            <ul class="news-list">
-                <li class="news-item_first">
-                    <img src="https://fakeimg.pl/96/">
-                    <div class="news-item_content">
+        <div class="news d-flex">
+            <ul class="news__content ">
+                <li class="news__item--first d-flex">
+                    <img src="https://fakeimg.pl/96/" alt="newsimage">
+                    <div class="news__item--content">
                         <h2>Title</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fuga. Porro sunt modi dignissimos  
                         </p>
                     </div>
                 </li>
-                <li class="news-item">
-                    <img src="https://fakeimg.pl/96/">
-                    <div class="news-item_content">
+                <li class="news__item d-flex">
+                    <img src="https://fakeimg.pl/96/" alt="newsimage">
+                    <div class="news__item--content">
                         <h2>Title</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, fuga. Porro sunt modi dignissimos
                         </p>
@@ -32,8 +32,10 @@
         </div>
 
         <footer>
-            <h1>表尾文字</h1>
+          <p>表尾文字</p>
         </footer>
     </div>
 </body>
-</html>                
+</html>          
+
+<!-- .container>.news>ul>li*2>img+h2{title}+p{lorem22}^^img^footer>p -->

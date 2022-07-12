@@ -53,23 +53,19 @@ table {
           box-sizing: border-box;
 }
 
-h1 {
-  color: gray;
-  background-color: lightblue;
-}
-
 .container {
   max-width: 640px;
   margin: 0 auto;
 }
 
-img {
-  vertical-align: middle;
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-h1 {
-  font-size: 16px;
-  line-height: 1.5;
+img {
+  vertical-align: middle;
 }
 
 h2 {
@@ -83,28 +79,19 @@ p {
 }
 
 .news {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-bottom: 24px;
 }
 
-.news-list li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.news-item_first {
+.news__item--first {
   padding-bottom: 20px;
 }
 
-.news-item_content {
+.news__item--content {
   margin: 0px 20px;
   max-width: 288px;
 }
 
-footer h1 {
+footer p {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px;
